@@ -1,0 +1,413 @@
+.abouts {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.about {
+  color: white;
+  width: 45%;
+  margin-right: -12vh;
+  padding-left: 9vw;
+
+  /* background-color: red; */
+  z-index: 1;
+}
+
+.about h1 {
+  font-size: 16vh;
+  font-weight: 200;
+}
+
+.about h2 {
+  margin-top: 40px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.aboutImg {
+  width: 70%;
+  height: 80vh;
+  /* background-image: url('../app/Assets/page-header-bg.jpg'); */
+}
+
+.aboutImg .Img {
+  width: 100%;
+  height: 100%;
+}
+
+.logoSBatch {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20vh;
+}
+
+.logoSBatch2 {
+  width: 19%;
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 0.1px solid rgb(44, 44, 44);
+}
+
+.logoSBatch3 {
+  width: 19%;
+  padding: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.batchImg {
+  width: 200px;
+  background-size: cover;
+  height: 120px;
+}
+
+.designCreativity {
+  margin-top: 20vh;
+}
+
+/* .showMore {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.showMore2 {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 60px;
+}
+
+.showMore2 h5 {
+  font-family: "Roboto";
+  letter-spacing: 5px;
+  font-size: 20px;
+  color: rgb(188, 187, 187);
+}
+
+.line {
+  width: 80px;
+  height: 2px;
+  background-color: rgb(54, 53, 53);
+}
+
+.designCreativityImg {
+  display: flex;
+  justify-content: space-between;
+}
+
+.designImg2 {
+  width: 45%;
+  height: 80vh;
+}
+
+.designContent {
+  width: 33%;
+}
+
+.designImg3 {
+  width: 22%;
+  height: 80vh;
+}
+
+.designImg3 .img {
+  width: 100%;
+  height: 100%;
+}
+
+.designImg2 .img {
+  width: 100%;
+  height: 100%;
+}
+
+.designContent {
+  margin-top: 12vh;
+  /* text-align: center; */
+  padding-left: 12vh;
+  /* background-color: red; */
+  padding-right: 6vh;
+}
+
+.advantages {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.advantages h1 {
+  color: #d0c9c9;
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-family: "Roboto";
+}
+
+.designBeauty {
+  padding-top: 60px;
+}
+
+.designBeauty h1 {
+  color: white;
+  font-size: 70px;
+  /* line-height: 100px; */
+  font-weight: 500;
+}
+
+.designBeauty h2 {
+  color: white;
+  font-size: 80px;
+  line-height: 90px;
+  font-weight: 500;
+  padding-left: 40px;
+}
+
+.designImg2 p {
+  color: white;
+}
+
+.designBeauty p {
+  font-family: "Roboto";
+  color: #d0c9c9;
+  font-size: 19px;
+  line-height: 30px;
+  padding-top: 60px;
+  padding-right: 20px;
+}
+
+.btn button {
+  padding: 23px 80px;
+  background-color: transparent;
+  font-size: 20px;
+  margin-top: 25px;
+  font-weight: 600;
+  color: #d0c9c9;
+  border: none;
+  margin-top: 10px;
+}
+
+.btn button:hover {
+  border: 1px solid #323131;
+  transform: all 1s ease-in-out;
+}
+
+.discoverAwards {
+  display: flex;
+  justify-content: center;
+  margin-top: 30vh;
+}
+
+.discoverAward {
+  width: 80%;
+}
+
+.discoveContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.discoveContent2 {
+  color: #d0c9c9;
+}
+
+.discoveContent2 h1 {
+  font-size: 60px;
+  padding-top: 30px;
+  font-weight: 500;
+}
+
+.discoveContent23 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.discoveContent23 h2 {
+  letter-spacing: 5px;
+  font-family: "Roboto";
+  font-size: 25px;
+}
+
+.discoveContent2Icons {
+  display: flex;
+  gap: 20px;
+}
+
+.discoveContent2Icon {
+  width: 11vh;
+  height: 11vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border: 1px solid #1f1f1f;
+}
+
+.discoveIcon {
+  transform: rotate(-45deg);
+}
+
+.discoveIcon2 {
+  transform: rotate(45deg);
+}
+
+.discoverSlider {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+
+.discoverSliderIcon {
+  width: 25%;
+  font-size: 20vh;
+  color: #7b7b7b;
+  display: flex;
+  justify-content: center;
+}
+
+.dicoverHrs {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.dicoverLine {
+  background-color: #1f1f1f;
+  height: 1px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.dicoverHr {
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: yellow; */
+  width: 100%;
+}
+
+.dicoverHr1 {
+  color: white;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+
+  /* background-color: yellowgreen; */
+}
+
+.dicoverHrNum {
+  width: 50px;
+  height: 50px;
+  background-color: #242328;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.discoverSliderContent {
+  text-align: center;
+  /* background-color: rebeccapurple; */
+  width: 25%;
+}
+
+.discoverSliderContent h5 {
+  font-family: "Roboto";
+  font-size: 20px;
+  color: #d0c9c9;
+}
+
+.discoverSliderContent h2 {
+  font-size: 40px;
+  padding: 20px 0px;
+}
+
+.discoverSliderContent h3 {
+  font-size: 20px;
+  font-family: "Roboto";
+  letter-spacing: 5px;
+  font-weight: 600;
+  color: #d0c9c9;
+}
+
+.discoverSliderDribble {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.discLine {
+  width: 10px;
+  height: 2px;
+  background-color: gray;
+}
+
+.ourTeams {
+  display: flex;
+  justify-content: center;
+  margin-top: 20vh;
+}
+
+.ourTeam {
+  width: 80%;
+  padding-bottom: 150px;
+}
+
+.ourTeamContent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ourProfessional {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ourProfessional h3 {
+  font-size: 25px;
+  letter-spacing: 7px;
+  font-family: "Roboto";
+  color: #d0c9c9;
+}
+
+.ourProfessionals h1 {
+  font-size: 60px;
+  padding-top: 40px;
+}
+
+.ourTeamImgs {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 30px; */
+  margin-top: 70px;
+  /* background-color: red; */
+}
+
+.ourTeamImg {
+  width: 32%;
+  height: 60vh;
+}
+
+.ourTeamImg1 {
+  width: 100%;
+  height: 100%;
+}
+
+.ourTeamImg2 {
+  width: 100%;
+  height: 100%;
+  margin-top: 7vh;
+}
+
+.ourTeamImg3 {
+  width: 100%;
+  height: 100%;
+  margin-top: 14vh;
+}

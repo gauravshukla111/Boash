@@ -1,0 +1,136 @@
+.contacts {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.contact {
+  color: white;
+  width: 40%;
+  margin-right: -35vh;
+  /* padding-left: 9vw; */
+
+  /* background-color: red; */
+  z-index: 1;
+}
+
+.contact h1 {
+  font-size: 15vh;
+  font-weight: 200;
+}
+
+.contact h2 {
+  margin-top: 40px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.contact pre {
+  background-color: transparent;
+}
+
+.contactImg {
+  width: 65%;
+  height: 80vh;
+  /* background-image: url('../app/Assets/page-header-bg.jpg'); */
+}
+
+.contactImg .Img {
+  width: 100%;
+  height: 100%;
+}
+
+.contactPage {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20vh;
+}
+
+.contactMap {
+  width: 35%;
+  height: 90vh;
+}
+
+.contactMap iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.contactRegister {
+  width: 45%;
+  /* background-color: yellow; */
+}
+
+.contactLine {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.contactLine h2 {
+  font-size: 20px;
+  font-family: "Roboto";
+  letter-spacing: 5px;
+  color: #d0c9c9;
+  font-weight: 600;
+}
+
+.line {
+  width: 80px;
+  height: 1px;
+  background-color: #d0c9c9;
+}
+
+.contactRegister h1 {
+  font-size: 80px;
+  font-weight: 500;
+  
+}
+
+.forms {
+  margin-top: 50px;
+}
+
+.nameEmail {
+  display: flex;
+  gap: 25px;
+  margin: 10px 0px;
+}
+
+.nameEmail input {
+  padding: 10px 0px;
+  width: 100%;
+  background-color: transparent;
+  font-size: 18px;
+  padding-left: 25px;
+  outline: none;
+  border: 1px solid #323131;
+}
+
+.forms textarea {
+  padding: 5px 0px;
+  width: 100%;
+  background-color: transparent;
+  font-size: 18px;
+  padding-left: 25px;
+  outline: none;
+  border: 1px solid #323131;
+}
+
+.btn button {
+  padding: 23px 80px;
+  background-color: transparent;
+  font-size: 20px;
+  margin-top: 25px;
+  font-weight: 600;
+  color: #d0c9c9;
+  border: none;
+}
+
+.btn button:hover {
+  border: 1px solid #323131;
+  transform: all 1s ease-in-out;
+}
+
+

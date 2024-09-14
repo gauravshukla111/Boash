@@ -1,0 +1,27 @@
+.navcontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.navlistcontent{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+   
+}
+.navlistcontent li{
+    list-style: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+.icons{
+    display: flex;
+   gap: 40px;
+    align-items: center;
+    font-size: 20px;
+   
+
+}

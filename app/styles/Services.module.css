@@ -1,0 +1,257 @@
+.portfolios {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.portfolio {
+  color: white;
+  width: 40%;
+  margin-right: -35vh;
+  /* padding-left: 9vw; */
+
+  /* background-color: red; */
+  z-index: 1;
+}
+
+.portfolio h1 {
+  font-size: 15vh;
+  font-weight: 200;
+}
+
+.portfolio h2 {
+  margin-top: 40px;
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.portfolio pre {
+  background-color: transparent;
+}
+
+.portfolioImg {
+  width: 65%;
+  height: 80vh;
+  /* background-image: url('../app/Assets/page-header-bg.jpg'); */
+}
+
+.portfolioImg .Img {
+  width: 100%;
+  height: 100%;
+}
+
+/* section 2 styling start */
+
+.section2 {
+  position: relative;
+  display: block;
+  background: var(--thm-black);
+  z-index: 1;
+  padding: 30px 170px 30px 170px;
+}
+.section2heading {
+  /* position: relative; */
+  display: flex;
+  gap: 1%;
+  align-items: flex-end;
+}
+.section2heading h4 {
+  color: #d0c9c9;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.section2 h2 {
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 55px;
+  line-height: 1.2em;
+  font-weight: 500;
+  text-transform: none;
+}
+
+.headingline {
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.25);
+  top: -5px;
+}
+.sectioncomponent {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.service1 {
+  width: 25%;
+  padding: 10px;
+
+  text-align: left;
+}
+.servicesecond {
+  width: 25%;
+  padding: 10px;
+  text-align: right;
+  margin-top: 50px;
+}
+.servicesecond h4 {
+  font-size: 36px;
+  color: #ffffff;
+  font-family: "Lora";
+}
+.servicesecond p {
+  font-size: 16px;
+  color: #d0c9c9;
+  font-family: "DM Sans";
+}
+.service1 h4 {
+  font-size: 36px;
+  color: #ffffff;
+  font-family: "Lora";
+}
+.service1 p {
+  font-size: 16px;
+  color: #d0c9c9;
+  font-family: "DM Sans";
+}
+.section2ontent {
+  position: relative;
+}
+.service2 {
+  position: absolute;
+  top: 10%;
+  left: 26%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .cupimage{
+     
+  } */
+.playbtnset {
+  display: flex;
+  gap: 10%;
+  align-items: center;
+}
+.playbtnset h3 {
+  font-size: 22px;
+  color: #d0c9c9;
+  font-family: "DM Sans";
+  width: 100%;
+  margin-top: 20px;
+}
+.playbtn {
+  margin-top: 20px;
+}
+/* section 5 component */
+
+.logoSBatch {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+  }
+  
+  .logoSBatch2 {
+    width: 19%;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 0.1px solid rgb(44, 44, 44);
+  }
+  
+  .logoSBatch3 {
+    width: 19%;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .batchImg {
+    width: 200px;
+    background-size: cover;
+    height: 120px;
+  }
+
+  /* section 6 styling start */
+
+.section6heading {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  align-items: center;
+  padding: 50px 20px 20px 170px;
+}
+.leftsection {
+  width: 40%;
+  margin-bottom: 160px;
+}
+.leftsection h1 {
+  color: #ffffff;
+  font-size: 55px;
+  line-height: 1.2em;
+  font-weight: 500;
+  text-transform: none;
+  font-family: "Lora";
+  padding-top: 10px;
+  animation: slideLeft 1s ease-in-out forwards;
+}
+.leftsection p {
+  font-size: 20px;
+  line-height: 28px;
+  color: #7c7c7c;
+  padding-top: 30px;
+}
+.section6btn {
+  display: inline-block;
+  border-radius: 0px;
+  padding: 14px 40px 13px;
+  color: #d0c9c9;
+  font-size: 18px;
+  font-weight: 500;
+  background: transparent;
+  overflow: hidden;
+  font-family: var(--thm-font);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  z-index: 1;
+  margin-top: 50px;
+  padding: 30px;
+}
+.rightsection {
+  width: 60%;
+  padding: 0px 40px 46px 0px;
+}
+
+.section6btn:hover {
+  border: 1px solid #7c7c7c;
+}
+.rightfirst1 {
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 40px 10px 50px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-bottom: 51px; */
+}
+.rightfirst1 h3 {
+  color: #d0c9c9;
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 500;
+}
+
+.name h2 {
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+  

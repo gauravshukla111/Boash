@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.footer{
+    background-color: black;
+    width: 100%;
+    font-family: 'DM Sans', sans-serif;
+}
+.footerPart1{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15%;
+    padding: 3% 0%;
+    margin: 10px;
+    border-bottom: 1px solid rgb(180, 178, 178);
+    border-top: 1px solid rgb(180, 178, 178);
+}
+.footerPart1Cnt1{
+    color: white;
+    font-size: 2.5rem;
+}
+.footerPart1Cnt1 h1{
+    font-weight: 400;
+}
+.footerPart1Cnt2 button{
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    color: white;
+    background-color:transparent;
+    box-shadow: 0px 0px 1px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+}
+.footerPart1Cnt2 button:hover{
+    border: 2px solid white;
+    
+}
+.footerPart2Cnt1{
+    text-align: -webkit-center;
+    padding: 20px;
+}
+
+.footerPart2Cnt2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url();
+    color: white;
+    padding:4% 0vh ;
+}
+.footerPart2Cnt2Box1,.footerPart2Cnt2Box2,.footerPart2Cnt2Box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.callLogo,.emailLogo,.visitOffice{
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 15px;
+    text-align: center;
+    background-color: rgb(10,10,10);
+}
+.footerPart2Cnt2Box3 p,.footerPart2Cnt2Box1 p,.footerPart2Cnt2Box2 p{ 
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footerMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0%;
+    gap: 3%;
+
+}
+.footerMenu a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+
+
+}
+.footerPart3Cnt2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:3%;
+    padding: 3% 0%;
+}
+.footerPart3Cnt2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+.footerPart3Cnt2 hr{
+    width: 60px;
+    border: 1px solid rgb(199, 199, 199);
+}
+.footerUnderLine{
+    text-align: center;
+}
+.footerPart3Cnt3{
+    text-align: center;
+}
+.footerPart3Cnt3 p{
+    font-size: 18px;
+    font-weight: 300;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    color: white;
+}
+.footerPart3Cnt4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    padding: 2% 0%;
+    
+}
+.footerPart3Cnt4 p{
+    
+    font-size: 20px;
+    font-weight: 500;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    color: white;
+}
+.footerPart3Cnt4 hr{
+    width: 60px;
+    border: 1px solid rgb(199, 199, 199); 
+}
